@@ -14,7 +14,7 @@ class q3 {
   
     public static void main(String[] args) 
     { 
-		long n=600851475143; 
+		long n=600851475143L; 
         long res=maxPrimeFactors(n); 
 		System.out.println("Result :"+res);
     } 
