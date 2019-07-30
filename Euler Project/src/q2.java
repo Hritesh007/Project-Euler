@@ -1,12 +1,8 @@
-import java.util.Scanner;
 class q2 
 {
 	public static void main(String[] args) 
 	{
-		Scanner s=new Scanner(System.in);
-		int ft=1,st=2,nt,n,sum=0;
-		System.out.println("Enter n:");
-		n=s.nextInt();
+		int ft=1,st=2,nt,n=4000000,sum=0;
 		while(ft<n)
 		{
 			if(ft%2==0)    
