@@ -9,7 +9,7 @@ class q5
          }
 	public static void main(String[] args) 
 	{
-	 long lcm=1;
+	 long lcm=2520;
                     for(long i=11;i<=20;i++)
                     {
                       lcm=(lcm*i) / findGCD(lcm,i);
