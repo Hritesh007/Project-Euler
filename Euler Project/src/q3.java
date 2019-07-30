@@ -1,4 +1,3 @@
-import java.util.Scanner;
 class q3 { 
     public static long maxPrimeFactors(long n) 
     { 
@@ -15,9 +14,7 @@ class q3 {
   
     public static void main(String[] args) 
     { 
-		Scanner s=new Scanner(System.in);
-        System.out.println("Enter n:");
-		long n=s.nextLong(); 
+		long n=600851475143; 
         long res=maxPrimeFactors(n); 
 		System.out.println("Result :"+res);
     } 
