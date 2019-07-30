@@ -4,11 +4,10 @@ class q3 {
     { 
           int i; 
 	  long x=n; 
-	  for (i=2;i<=x;i++) 
+	  for (i=2;i<x;i++) 
            { 
-	       if(x%i==0){
-		  x/=i; 
-		  i--; 
+	       while(x%i==0){
+		  x/=i;  
 	        } 
            } 
 	  return i;
