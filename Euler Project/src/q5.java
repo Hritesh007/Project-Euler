@@ -1,13 +1,19 @@
 class q5 
 {
+         public static long findGCD(long a,long b)         
+         {
+            if(b == 0){
+            return a;
+        }
+        return findGCD(b, a%b); 
+         }
 	public static void main(String[] args) 
 	{
-	int i;
-	for(i=1;;i++)
-	{
-		if((i%11)==0 && (i%12)==0&&(i%13)==0 && (i%14)==0 && (i%15)==0 && (i%16)==0 && (i%17)==0 && (i%18)==0 && (i%19)==0 && (i%20)==0)
-			break;
-	}
-    System.out.println(i);
+	 long lcm=1;
+                    for(long i=2;i<=20;i++)
+                    {
+                      lcm=(lcm*i) / findGCD(lcm,i);
+                    }    
+                   System.out.println("Result :"+lcm);
 	}
 }
