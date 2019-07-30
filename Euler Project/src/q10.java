@@ -1,4 +1,3 @@
-import java.util.Scanner;
 class q10 
 {
 	public static boolean isPrime(int n) 
@@ -16,9 +15,7 @@ class q10
 	}
 	public static void main(String[] args) 
 	{
-		Scanner s=new Scanner(System.in);
-		System.out.println("Enter n :");
-		int n=s.nextInt();
+		int n=2000000;
 		long sum=0;
 		for(int i=2;i<=n;i++)
 		{
