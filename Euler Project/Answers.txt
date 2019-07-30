@@ -1,0 +1,19 @@
+q1 Result :233168
+
+q2 Result :4613732
+
+q3 Result :6857
+
+q4 Result :906609
+
+q5 Result :232792560
+
+q6 Result :25164150
+
+q7 Result :104743
+
+q8 Result :23514624000
+
+q9 Result :31875000
+
+q10 Result :142913828922
